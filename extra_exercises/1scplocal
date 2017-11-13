@@ -1,0 +1,3 @@
+Michiel@PC MINGW64 ~/Documents/School/Semester 5/Systeembeheer
+$ scp -P 22345 localfile.txt root@193.191.177.215:/tmp
+
