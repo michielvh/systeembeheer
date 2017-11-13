@@ -1,0 +1,15 @@
+ssh key-gen
+cd .ssh/
+cat > authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjI+QeZTX2ki8r5jvJdm31Bfc4kiDSp8RgeLUcRievNUJhUcCjD/2Gm0VZ+qlxrdGvXELn3FYjrA8oMRU6iDPI7Z0gyQEf5d068XkMvFPBlAM80rQfiOrJ3XNqJGdEahJyJ+6Os18rRO6Nvc83G3DijZcAkiPD51lNFAlUFLSh1zBjj9SQ6aPChIDvO6f5Az+HtdremJFV93iYTb+YGuXv7A+hIH0nHjcW1vOaCRI7KQlGSd+MiWgervAglczcj7DC6sZrR54IcWZOm5m7LoDio78S10xxcEQclmfG8i0flIEw23DSKMP2psTb/1u6l4sZT7TK+vTxO/uzFLFFTdwz Michiel@PC
+ssh root@193.191.177.215
+logout
+vi config 
+
+Host systeembeheer
+        Hostname 193.191.117.215
+        Port 22345
+        User root
+
+rm .ssh -rf
+ssh-copy-id root@193.191.177.215 -p 22345
