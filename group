@@ -18,7 +18,7 @@ voice:x:22:
 cdrom:x:24:
 floppy:x:25:
 tape:x:26:
-sudo:x:27:check
+sudo:x:27:check,check2
 audio:x:29:
 dip:x:30:
 www-data:x:33:
@@ -53,3 +53,4 @@ messagebus:x:113:
 check:x:1000:
 ntp:x:114:
 bind:x:115:
+check2:x:1001:
