@@ -54,3 +54,4 @@ check:x:1000:
 ntp:x:114:
 bind:x:115:
 check2:x:1001:
+mysql:x:116:
