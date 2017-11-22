@@ -55,3 +55,4 @@ ntp:x:114:
 bind:x:115:
 check2:x:1001:
 mysql:x:116:
+ftp:x:117:
