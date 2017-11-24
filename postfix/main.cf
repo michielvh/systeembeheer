@@ -8,10 +8,11 @@ append_dot_mydomain = no
 
 # Uncomment the next line to generate "delayed mail" warnings
 #delay_warning_time = 4h
+mydomain = michiel-vanhuyck.sb.uclllabs.be
 myhostname = mx.michiel-vanhuyck.sb.uclllabs.be
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
-mydestination = $myhostname, localhost.$mydomain, localhost
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
 #relayhost = 
 mynetworks = 127.0.0.0/8
 inet_interfaces = all
