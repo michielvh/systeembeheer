@@ -59,3 +59,4 @@ ftp:x:117:
 slimmerik:x:1002:
 dovecot:x:118:
 dovenull:x:119:
+vmail:x:1003:
