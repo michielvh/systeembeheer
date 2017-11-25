@@ -1,0 +1,5 @@
+#user1@michiel-vanhuyck.sb.uclllabs.be /var/vmail/user1
+#user2@michiel-vanhuyck.sb.uclllabs.be /var/vmail/user2
+user1@michiel-vanhuyck.sb.uclllabs.be user1
+user2@michiel-vanhuyck.sb.uclllabs.be user2
+
